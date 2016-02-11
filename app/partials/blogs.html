@@ -1,0 +1,9 @@
+<section id="blogs" class="ui three column grid">
+	<h1>HEY</h1>
+	<div class="ui column" ng-repeat="blog in blogs | filter:query | orderBy:orderProp">
+		<div class="ui item">
+			<div class="ui header">{{blog.title}}</div>
+		</div>
+	</div>
+	
+</section>

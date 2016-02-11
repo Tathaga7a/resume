@@ -1,0 +1,10 @@
+{
+  "name": "mikekress-com",
+  "private": true,
+  "dependencies": {
+    "angularjs": "~1.4.0",
+    "semantic": "~1.11.6",
+	  "angular-route": "~1.4.0",
+    "angular-resource": "~1.4.0"
+  }
+}
