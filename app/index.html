@@ -18,50 +18,108 @@
 <body>
     <div class="ui pusher">
         <div id="main" class="ui stackable grid">
+            <!-- MENU -->
             <!-- HEADER -->
-            <div class="ui sixteen wide column">
-                <div class="ui basic clearing bottom attached segment items">
-                    <div class="ui left floated header">
-                        <div class="ui vertical list">
-                            <li class="ui medium item">Michael Kress</li>
-                            <li class="ui tiny item">717-398-4822</li>
+            <div class="ui bottom attached basic segment grid">
+                <div class="ui sixteen wide column">
+                    <div id="header" class="ui basic clearing segment">
+                        <div class="ui left floated header">
+                            <h1 class="ui medium item">Michael Kress</h1>
+                            <h2 class="ui tiny item">717-398-4822</h2>
                         </div>
-                        
+                        <div class="ui right floated header">
+                            <div class="ui items">
+                                <p class="ui item">michael.s.kress@gmail.com</p>
+                                <p class="ui item">4639 Constitution Ave<br>Colorado Springs, CO 80915</p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="ui right floated header">
-                        <div class="ui vertical list">
-                            <li class="ui small item">michael.s.kress@gmail.com</li>
-                            <li class="ui small item">4639 Constitution Ave<br>Colorado Springs, CO 80915</li>
+                    <div id="subheader" class="ui basic clearing segment">
+                        <div class="ui right floated horizontal list">
+                            <div class="item">IT</div>
+                            <div class="item">Sales Management</div>
+                            <div class="item">Foodservice Management</div>
+                            <div class="item">Agriculture</div>
+                        </div>
+                        <!--
+                        <div class="ui left floated menu">
+                            <a class="item">IT Version</a>
+                            <a class="item">LITE Verson</a>
+                            <a class="item">Hide</a>
+                        </div>
+                        -->
+                        <div class="ui left floated middle aligned items">
+                            <a class="" href="http://github.com/tathaga7a/resume"><i class="large github icon"></i></a>
+                            <a class="" href="http://github.com/tathaga7a/resume"><i class="large instagram icon"></i></a>
+                            <a class="" href="http://github.com/tathaga7a/resume"><i class="large facebook icon"></i></a>
                         </div>
                     </div>
                 </div>
-                <div class="ui basic center aligned attached segment">
-                    <div class="ui medium horizontal divided list">
-                        <li class="item">IT</li>
-                        <li class="item">Sales Management</li>
-                        <li class="item">Foodservice Management</li>
-                        <li class="item">Agriculture</li>
-                    </div>
-                   
-                </div>
-                
-                
-                
             </div>
+            
             <!-- END HEADER -->
             
             
+            <div id="technical-overview" class="ui attached basic segment grid">
+            <div class="ui sixteen wide column">
+               <div class="ui basic fitted segment">
+                    <h3 class="ui small header">Technical Overview</h3>
+               </div>
+            </div>
+            <div class="ui three column equal height row">
+                <div class="ui column">
+                    <div class="ui basic segment">
+                        <div class="ui small list">
+                            <div class="ui small header">Network</div>
+                            <li class="item">Linux based routing, Cisco, OpenWRT, VLAN, VPN, Tunneling</li>
+                            <li class="item">ARP, PPP, Ethernet</li>
+                            <li class="item">IPv4, IPv6, ICMP, IPsec, TCP/UDP, DNS</li>
+                            <li class="item">Nmap, Firewalls, Snort IDS, IPtables</li>
+                            <li class="item">Packet capture - libpcap/wireshark/OS X - stream reassembly</li>
+                        </div>
+                    </div>
+                </div>
+                <div class="ui column">
+                    <div class="ui basic segment">
+                        <div class="ui small list">
+                            <div class="ui small header">Software, Services, Libraries, Languages</div>
+                            <li class="item">Apache, NGINX, Google Apps for business</li>
+                            <li class="item">MySQL, PostgreSQL, SQlite</li>
+                            <li class="item">HTML5, CSS5, Javascript, Python, Perl, MVC, git, svn</li>
+                            <li class="item">Bootstrap, Semantic UI, Polymer, AngularJS</li>
+                            <li class="item">NodeJS Development - Yeoman, Gulp, Bower, NVM, NPM, Protractor, Jasmine</li>
+                            <li class="item">SSH, Telnet, Certificates - TLS/SSL</li>
+                            <li class="item">Adobe Creative Suite</li>
+                        </div>
+                    </div>
+                </div>
+                <div class="ui column">
+                    <div class="ui basic segment">
+                        <div class="ui small list">
+                            <div class="ui small header">OS</div>
+                            <li class="ui item">Windows XP-8</li>
+                            <li class="ui item">Linux - Ubuntu, Fedora, Debian</li>
+                            <li class="ui item">OS X</li>
+                            <li class="ui item">Android, iOS</li>
+                            <li class="ui item">Virtualization: VirtualBox, Vagrant, Digital Ocean, Amazon EC2, Google Cloud Platform</li>
+                            <li class="ui item"></li>
+                        </div>
+                    </div>
+                </div>
+            </div>
             
-            <!-- EXPERIENCE SECTION -->       
-            <div class="ui two column equal height row">
+            </div>   
+            <!-- EXPERIENCE SECTION --> 
+            <div class="ui basic attached segment grid">
+                <div class="ui two column equal height row">
                 <div class="ui column">
                    <div class="ui basic fitted segment">
                       <h3 class="ui small header">Professional Experience</h3>
                     </div>
                 </div>
             </div>
-            <div class="ui equal height row">
-                <div class="sixteen wide column">
+            <div class="ui three column equal height row">
+                <div class="column">
                     <div class="ui basic fitted left aligned segment items">
                         <div class="item">
                             <div class="content">
@@ -89,7 +147,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="sixteen wide column">
+                <div class="column">
                     <div class="ui basic fitted segment items">
                         <div class="ui item">
                            <div class="ui content">
@@ -124,7 +182,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="sixteen wide column">
+                <div class="column">
                     <div class="ui basic fitted segment items">
                         <div class="item">
                             <div class="content">
@@ -162,54 +220,6 @@
                 </div>    
                 
             </div>
-            <div class="ui sixteen wide column">
-               <div class="ui basic fitted segment">
-                <h3 class="ui small header">Technical Overview</h3>
-               </div>
-            </div>
-               
-            <div class="ui three column equal height row">
-                <div class="column">
-                    <div class="ui basic segment">
-                        <div class="ui small list">
-                            <div class="ui small header">Network</div>
-                            <li class="item">Linux based routing, Cisco, OpenWRT, VLAN, VPN, Tunneling</li>
-                            <li class="item">ARP, PPP, Ethernet</li>
-                            <li class="item">IPv4, IPv6, ICMP, IPsec, TCP/UDP, DNS</li>
-                            <li class="item">Nmap, Firewalls, Snort IDS, IPtables</li>
-                            <li class="item">Packet capture - libpcap/wireshark/OS X - stream reassembly</li>
-                        </div>
-                    </div>
-                </div>
-                <div class="column">
-                    <div class="ui basic segment">
-                        <div class="ui small list">
-                            <div class="ui small header">Software, Services, Libraries, Languages</div>
-                            <li class="item">Apache, NGINX, Google Apps for business</li>
-                            <li class="item">MySQL, PostgreSQL, SQlite</li>
-                            <li class="item">HTML5, CSS5, Javascript, Python, Perl, MVC, git, svn</li>
-                            <li class="item">Bootstrap, Semantic UI, Polymer, AngularJS</li>
-                            <li class="item">NodeJS Development - Yeoman, Gulp, Bower, NVM, NPM, Protractor, Jasmine</li>
-                            <li class="item">SSH, Telnet, Certificates - TLS/SSL</li>
-                            <li class="item">Adobe Creative Suite</li>
-                        </div>
-                    </div>
-                </div>
-                <div class="column">
-                    <div class="ui basic segment">
-                        <div class="ui small list">
-                            <div class="ui small header">OS</div>
-                            <li class="ui item">Windows XP-8</li>
-                            <li class="ui item">Linux - Ubuntu, Fedora, Debian, Kali</li>
-                            <li class="ui item">OS X</li>
-                            <li class="ui item">Android, iOS</li>
-                            <li class="ui item">Virtualization: VirtualBox, Vagrant, Digital Ocean, Amazon EC2, Google Cloud Platform</li>
-                            <li class="ui item"></li>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- END SKILLS SECTION -->
             <div class="ui three column equal height row">
                 <div class="column">
                     <div class="ui basic fitted segment items">
@@ -219,7 +229,7 @@
                                 <div class="meta"><span class="position">Loan Officer: 7/2010-3/2011 </span></div>
                                 <div class="description"></div>
                                 <div class="ui small list">
-                                <div class="item">
+                                    <div class="item">
                                         Completed loan applications and credit reviews for prospective borrowers.
                                     </div>
                                     <div class="item">
@@ -272,7 +282,14 @@
                     </div>
                 </div>
             </div>
-            <div class="ui three column equal height row">
+            </div> 
+            <!--
+            <div id="spacer" class="ui basic attached clearing segment">
+                <div class=""></div>
+            </div>
+            -->
+            <div class="ui basic segment grid">
+                <div class="ui three column equal height row">
                 <div class="ui column">
                     <div class="ui basic fitted segment items">
                         <div class="item">
@@ -377,14 +394,22 @@
                 </div>
             </div>
         
+    
+            </div>
+            
+                        
+            
+            
+            
+            
            
             
                 
             <!-- SKILLS SECTION -->
             
                 
-                    
-            <div class="ui two column equal height row">
+            <div class="ui basic attached segment grid">
+                <div class="ui two column equal height row">
                 <div class="ui column">
                    <div class="ui basic segment">
                         <div class="ui tiny header">
@@ -454,6 +479,8 @@
                     </div>
                 </div>
             </div>
+            </div>        
+            
      
             
         
