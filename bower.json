@@ -3,7 +3,7 @@
   "private": true,
   "dependencies": {
     "angularjs": "~1.4.0",
-    "semantic": "~1.11.6",
+    "semantic": "~2.1.8",
 	  "angular-route": "~1.4.0",
     "angular-resource": "~1.4.0"
   }
